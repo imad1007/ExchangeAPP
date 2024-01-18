@@ -1,0 +1,12 @@
+.header{
+    position: absolute;
+    z-index: 3;
+    width: 100%;
+}
+.header p{
+    text-align: center;
+    padding: 10px;
+    background: linear-gradient(to right,rgb(186, 38, 245),rgb(66, 166, 224));
+    color: white;
+    font-size: 12px;
+}

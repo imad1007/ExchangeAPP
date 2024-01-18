@@ -66,7 +66,7 @@ export default function MainCurrencyExchange() {
       </div>
       <div className="currencysSelectors"  >
         <div className="base_selector" style={{ position: 'relative' }} id='base_selector' onClick={handlOneOfSelectorsClicked}>
-          <p style={{ position: 'absolute', backgroundColor: 'white', left: '10px', top: '-18px', fontSize: '12px', padding: '4px', color: 'rgba(18, 23, 41, 0.61)' }}>From</p>
+          <p style={{ position: 'absolute', backgroundColor: 'white', left: '10px', top: '-13px', fontSize: '12px', padding: '2px', color: 'rgba(18, 23, 41, 0.61)' }}>From</p>
           <CountryFlag CurrencyCode={currencySelected} />
           {currencySelected}
           <i className="fa-solid fa-angle-down"></i>
@@ -75,7 +75,7 @@ export default function MainCurrencyExchange() {
         <i class="fa-solid fa-arrow-right-arrow-left"></i>
         </div>
         <div className="exchenge_to_selector" style={{ position: 'relative' }} id='exchenge_to_selector' onClick={handlOneOfSelectorsClicked}>
-          <p style={{ position: 'absolute', backgroundColor: 'white', left: '10px', top: '-18px', fontSize: '12px', padding: '4px', color: 'rgba(18, 23, 41, 0.61)' }}>To</p>
+          <p style={{ position: 'absolute', backgroundColor: 'white', left: '10px', top: '-13px', fontSize: '12px', padding: '2px', color: 'rgba(18, 23, 41, 0.61)' }}>To</p>
           <CountryFlag CurrencyCode={currencyExchangeTo} />
           {currencyExchangeTo}
           <i className="fa-solid fa-angle-down"></i>

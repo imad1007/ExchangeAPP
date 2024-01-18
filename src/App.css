@@ -6,6 +6,8 @@
 }
 .container{
   display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   color: rgb(7, 14, 29);
   position: relative;
 }
