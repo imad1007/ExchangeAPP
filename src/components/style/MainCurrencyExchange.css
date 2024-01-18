@@ -1,0 +1,118 @@
+::-webkit-scrollbar{
+    width: 8px;
+}
+::-webkit-scrollbar-track{
+    background-color: rgb(255, 255, 255);
+    border-radius: 0 10px 10px 0px;
+    width: 8px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: rgb(5, 105, 55);
+    border-radius: 0 5px 5px 0;
+}
+.MainCurrencyExchange{
+    width: 80%;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.currencysSelectors{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.base_selector,.exchenge_to_selector{
+    min-width: 150px;
+    padding: 6px;
+    border: 2px solid rgb(6, 196, 91);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    cursor: pointer;
+}
+.currency_Selector_drop_down{
+    display: none;
+    width: 300px;
+    height: 70vh;
+    overflow-y: scroll;
+    position: absolute;
+    background-color: white;
+    padding: 6px;
+    border: 1px solid rgb(173, 173, 173);
+    box-shadow: 2px 2px 6px 2px  rgba(218, 218, 218, 0.637);
+    border-radius: 10px;
+    z-index: 2;
+
+}
+.dropdown_Closer{
+    width: 100%;
+    min-width: 150px;
+    padding: 6px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+}
+.countrys_currencys{
+    width: 80%;
+    min-width: 150px;
+    padding: 6px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    color: rgba(18, 23, 41, 0.61);
+    gap: 30px;
+    font-size: 14px;
+    cursor: pointer;
+    overflow: hidden;
+}
+.aounth_and_rates{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.aounth_input input{
+    min-width: 300px;
+    padding: 10px;
+    border: 2px solid rgb(6, 196, 91);
+    outline: none;
+    font-size: 18px;
+    color: rgb(8, 10, 27);
+    border-radius: 10px;
+}
+.exchange_button{
+    padding: 10px;
+    width: 300px;
+    color: aliceblue;
+    background-color: rgb(43, 109, 185);
+    font-size: 18px;
+    border: 2px solid rgb(43, 109, 185) ;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.rate_displayed{
+    min-width: 300px;
+    height: 30vh;
+    border: 1px solid rgba(190, 190, 190, 0.699);
+    border-radius: 10px;
+}
+.rate_displayed{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}

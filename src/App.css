@@ -1,0 +1,11 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+.container{
+  display: flex;
+  color: rgb(7, 14, 29);
+  position: relative;
+}
